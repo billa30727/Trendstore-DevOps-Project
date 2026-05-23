@@ -1,0 +1,26 @@
+{
+  "name": "trend",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "DevOps Practice Project - Dist Directory",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s dist -l 3000",
+=======
+  "description": "DevOps Practice Project – Dist Directory",
+  "main": "index.js",
+  "scripts": {
+>>>>>>> 42951ae5099aba417c2b1df9db4080e6fc3e3233
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+<<<<<<< HEAD
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+=======
+  "license": "ISC"
+>>>>>>> 42951ae5099aba417c2b1df9db4080e6fc3e3233
+}
