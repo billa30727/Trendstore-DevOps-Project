@@ -1,18 +1,8 @@
-pipeline {
+	pipeline {
     agent any
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git 'https://github.com/billa30727/Trendstore-DevOps-Project.git'
-            }
-        }
-
-        stage('Build Docker Image') {
-            steps {
-                sh 'docker build -t trendstore-app .'
-            }
         }
 
         stage('Docker Login') {
